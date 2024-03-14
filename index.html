@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devchallanges-Mini blog card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+        /* universal style*/
+
+        body {
+
+            font-family: "Sora", sans-serif;
+            font-optical-sizing: auto;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #FAFAF9;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .tag {
+            font-size: 10px;
+        }
+
+        .title {
+            font-size: 18px;
+            color: #20293A;
+        }
+
+        .body-text {
+            font-size: 14px;
+            color: #6C727F;
+        }
+
+        .author {
+            font-size: 12px;
+            padding: 20px 0 20px 16px;
+            color: #6C727F;
+        }
+
+        /* ------------------------------------ */
+
+        /* individual style */
+
+        .blog-card {
+            width: 368px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 16px;
+            box-shadow: 10px 10px 10px #6c727f20;
+        }
+
+        .blog-card-content {
+            padding: 16px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 16px;
+            margin-bottom: 16px;
+        }
+
+        .tag {
+            padding: 6px 16px;
+            background-color: #E6D6FC;
+            border-radius: 16px;
+            color: #883AE1;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        .hr-line {
+            border-top: 1px solid #6c727f20;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="blog-card">
+        <div class="blog-card-content">
+            <img src="cactus_img.jpg" alt="">
+            <div class="blog-card-text">
+                <span class="tag">Design</span>
+                <h1 class="title">Embracing Minimalism</h1>
+                <p class="body-text">From minimalist sculptures to minimalist paintings, this blog will inspire you to
+                    appreciate the beauty that lies in simplicity.</p>
+            </div>
+        </div>
+        <hr class="hr-line">
+        <p class="author">Annie Spratt</p>
+    </div>
+
+
+</body>
+
+</html>
